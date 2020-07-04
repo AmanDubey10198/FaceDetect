@@ -19,6 +19,8 @@ Requirement to be pre-installed in the working flow:
 
 ***Run the index.py file***
 
+## Work Flow
+1. ![image info](./img/1.jpg)
 
 ## Result
 
