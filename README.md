@@ -20,7 +20,22 @@ Requirement to be pre-installed in the working flow:
 ***Run the index.py file***
 
 ## Work Flow
-1. ![image info](./img/1.jpg)
+1. Providing the image as input to the system 
+* <img src = "./img/1.JPG" height = "50%" width = "50%">
+
+2. System returns the captured face if found
+* <img src = "./img/2.JPG" height = "50%" width = "50%">
+
+3. Gender Identification system returns the gender of the image
+* <img src = "./img/3.JPG" height = "50%" width = "50%">
+
+4. Enter the input <br>
+F-> for find the image in the database <br>
+S-> for saving the image in the database
+* <img src = "./img/4.JPG" height = "50%" width = "50%">
+
+5. System Returns the result and get ready for next input. Input "3" for exiting.
+* <img src = "./img/5.JPG" height = "50%" width = "50%">
 
 ## Result
 
@@ -30,6 +45,10 @@ Face recognition system is based on the VGG-16 neural network which was recommen
 
 Evaluate the “performance of the classifier” at different epochs. Chart shows the decrease in loss of the model with the training of model for successive epochs. The training loss shows a steady decrease up to 0.0078 before saturation and the validation loss shows a seesaw behavior giving 0.01578 on average. Accuracy of the “Gender classifier model” on both the training and the validation set shows a steady increase of the accuracy with reaching a value of 0.99 and 0.98 before saturation respectively. Example is provided in figure 1.
 
+<img src = "./img/AccuracyGraph.png" width = "50%" height = "50%">
+
+
+<img src = "./img/LossGraph.png" width = "50%" height = "50%">
 
 ## FILE -> Index.py
 
