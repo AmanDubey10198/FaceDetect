@@ -20,22 +20,22 @@ To download gender model <a href = "https://drive.google.com/file/d/1rmudQY5vgUG
 Function main() =>
 Repeat while TRUE:
 1.	Except any of 3 inputs and save it to “choice” variable
-  a.	1-> For taking image using webcam
-  b.	2-> For taking image using image source path
-  c.	3-> For Exiting program
+  *	1-> For taking image using webcam
+  *	2-> For taking image using image source path
+  *	3-> For Exiting program
 2.	if choice is “1”
-  a.	curr = “IM.find_face()” # returns the captured and resized image of face
-  b.	show the image to the user using “OpenCV” library
-  c.	call “saveOrFind(curr)” to ask whether to find or save the image in the database
+  *	curr = “IM.find_face()” # returns the captured and resized image of face
+  *	show the image to the user using “OpenCV” library
+  *	call “saveOrFind(curr)” to ask whether to find or save the image in the database
 3.	if choice is “2”
-  a.	curr = “IMS.find_face()” # not written now
-  b.	show the image to the user using “OpenCV” library
-  c.	call “saveOrFind(curr)” to ask whether to find or save the image in the database
+  *	curr = “IMS.find_face()” # not written now
+  *	show the image to the user using “OpenCV” library
+  *	call “saveOrFind(curr)” to ask whether to find or save the image in the database
 4.	if choice is “3”
-  a.	PRINT “>>> THANK YOU!!!”
-  b.	break
+  *	PRINT “>>> THANK YOU!!!”
+  *	break
 5.	If choice anything else
-  a.	PRINT “>>> WRONG INPUT”
+  *	PRINT “>>> WRONG INPUT”
 
 Function saveOrFind(argument: face_img)=>
 Repeat while TRUE:
