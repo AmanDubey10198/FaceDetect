@@ -10,7 +10,7 @@ To download gender model <a href = "https://drive.google.com/file/d/1rmudQY5vgUG
 
 Store all the weight and model in the **Utils** folder
 
-Requirement required to be pre-installed in the working flow:
+Requirement to be pre-installed in the working flow:
 * python3
 * tensoflow
 * keras
@@ -19,6 +19,14 @@ Requirement required to be pre-installed in the working flow:
 
 ***Run the index.py file***
 
+
+## Result
+
+In Face Detection system is the first step in finding the faces from an image, the openCV model used was able to identify the faces from the images 98% of the time provided the condition that there is minimum distortion and rotation of the image.
+
+Face recognition system is based on the VGG-16 neural network which was recommended by various FaceNet and Deep Learning models. On training the model was giving an accuracy of 0.89 with the loss of 0.2678 . On validation dataset the model was able to produce an accuracy of 0.84 with the loss of 0.3125. 
+
+Evaluate the “performance of the classifier” at different epochs. Chart shows the decrease in loss of the model with the training of model for successive epochs. The training loss shows a steady decrease up to 0.0078 before saturation and the validation loss shows a seesaw behavior giving 0.01578 on average. Accuracy of the “Gender classifier model” on both the training and the validation set shows a steady increase of the accuracy with reaching a value of 0.99 and 0.98 before saturation respectively. Example is provided in figure 1.
 
 
 ## FILE -> Index.py
