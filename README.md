@@ -8,6 +8,19 @@ To download gender model weight <a href = "https://drive.google.com/file/d/1SXpA
 
 To download gender model <a href = "https://drive.google.com/file/d/1rmudQY5vgUGjTk4s0LcUyLjX_OktFB_a/view?usp=sharing">click here!</a>
 
+Store all the weight and model in the **Utils** folder
+
+Requirement required to be pre-installed in the working flow:
+* python3
+* tensoflow
+* keras
+* openCV
+
+
+***Run the index.py file***
+
+
+
 ## FILE -> Index.py
 
 ### imports
@@ -40,12 +53,12 @@ Repeat while TRUE:
 Function saveOrFind(argument: face_img)=>
 Repeat while TRUE:
 1.	Except any of 2 inputs and save it to “option”
-  a.	“S” or “s” -> For saving image in database
-  b.	“F” or “f” -> For finding the image from database
+  *	“S” or “s” -> For saving image in database
+  *	“F” or “f” -> For finding the image from database
 2.	if option is equal to “S” or “s”
-  a.	SIF.save_img(face_img)
+  *	SIF.save_img(face_img)
 3.	if option is equal to “F” or “f”
-  a.	call function “FI.who_is_it(face_img)”
+  *	call function “FI.who_is_it(face_img)”
 4.	If input anything else
-  a.	break out of the LOOP
+  *	break out of the LOOP
 
